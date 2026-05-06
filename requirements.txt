@@ -1,0 +1,8 @@
+# Day 1: Python Basics
+# No external packages needed yet!
+# We're using only Python's built-in features.
+
+# For Day 3-onwards, we'll add:
+# flask==2.3.0           # Web framework for API
+# flask-cors==4.0.0      # Handle cross-origin requests
+# sqlite3                # Database (built-in)
