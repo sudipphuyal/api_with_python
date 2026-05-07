@@ -1,8 +1,15 @@
-# Day 1: Python Basics
-# No external packages needed yet!
-# We're using only Python's built-in features.
+# Python API Development Project Dependencies
 
-# For Day 3-onwards, we'll add:
-# flask==2.3.0           # Web framework for API
-# flask-cors==4.0.0      # Handle cross-origin requests
-# sqlite3                # Database (built-in)
+# Day 1: Python Basics
+# - No external packages (using built-ins only)
+
+# Day 2: HTTP Concepts
+# - No external packages (using built-ins only)
+
+# Day 3+: Flask API Development
+flask==2.3.0           # Web framework for building APIs
+flask-cors==4.0.0      # Handle cross-origin requests
+# sqlite3 is built-in, no need to install
+
+# To install all:
+# pip install -r requirements.txt
