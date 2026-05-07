@@ -61,7 +61,7 @@ def hello():
         "method": "GET",
         "status": "success"
     }
-    return jsonify(response)
+    return jsonify(response), 200  # 200 is HTTP status code for success
 
 
 print("""

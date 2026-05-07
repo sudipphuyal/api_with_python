@@ -11,5 +11,9 @@ flask==2.3.0           # Web framework for building APIs
 flask-cors==4.0.0      # Handle cross-origin requests
 # sqlite3 is built-in, no need to install
 
+# Day 8+: External API Integration
+requests==2.31.0       # Make HTTP requests to external APIs
+# Used for fetching data from CoinGecko, weather APIs, etc.
+
 # To install all:
 # pip install -r requirements.txt
